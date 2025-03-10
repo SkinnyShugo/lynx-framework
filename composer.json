@@ -1,0 +1,26 @@
+{
+    "name": "skinnyshugo/lynx-framework",
+    "description": "The Lynx Framework, once a staple in JavaScript, now powers Laravel apps with enhanced frontend capabilities. This package seamlessly merges Laravel's robust backend with Lynx's dynamic features, enabling efficient, scalable web applications. Whether you're a Laravel pro or shifting from JavaScript, Lynx streamlines development for a modern, high-performance experience.",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^9.0|^10.0|^11.0|^12.0",
+        "guzzlehttp/guzzle": "8.0.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.4",
+        "phpstan/phpstan": "^0.12"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Skinnyshugo\\LynxFramework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SkinnyShugo"
+        }
+    ],
+    "minimum-stability": "dev"
+}
